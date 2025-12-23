@@ -1,10 +1,10 @@
-# Array of hashes for student basic info
+
 students = [
   { roll: 1, name: "Ram", age: 20 },
   { roll: 2, name: "Sita", age: 21 },
   { roll: 3, name: "Hari", age: 22 }
 ]
-# Hash for marks (keyed by roll number)
+
 marks = {
   1 => { Math: 80, Science: 75, English: 85 },
   2 => { Math: 90, Science: 88, English: 92 },
