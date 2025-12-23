@@ -1,4 +1,4 @@
-number=17
+number=rand(1..20)
 guess= nil
 
 while guess!= number
