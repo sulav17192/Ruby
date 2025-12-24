@@ -56,10 +56,10 @@ loop do
     remove_item(cart, name)
 
   elsif command == "show"
-    show_cart(cart)
-
-  elsif command == "total"
+    show_cart(cart)elsif command == "total"
     puts "Total price: #{total_price(cart)}"
+
+  
 
   elsif command == "exit"
     puts "Thank you!"

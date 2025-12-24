@@ -1,4 +1,3 @@
-
 students = [
   { roll: 1, name: "Ram", age: 20 },
   { roll: 2, name: "Sita", age: 21 },
@@ -28,7 +27,7 @@ students.each do |student|
       puts "#{subject}: #{mark}"
       total += mark
     end
-    average = total.to_f / student_marks.length
+    average = total.to_f / student_marks
     puts "Total Marks: #{total}"
     puts "Average Marks: #{average.round(2)}"
     break
